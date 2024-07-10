@@ -1,0 +1,516 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap");
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
+  background-color: #121212;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 20px;
+}
+
+.color-system {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.color-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.color-item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.color-item p {
+  margin: 0;
+  font-size: 12px;
+  color: #000;
+}
+
+.surface-50 {
+  background-color: #FFFFFF;
+}
+
+.surface-100 {
+  background-color: #F7F7F7;
+}
+
+.surface-200 {
+  background-color: #E0E0E0;
+}
+
+.surface-300 {
+  background-color: #C7C7C7;
+}
+
+.surface-400 {
+  background-color: #9E9E9E;
+}
+
+.surface-500 {
+  background-color: #757575;
+}
+
+.surface-600 {
+  background-color: #616161;
+}
+
+.surface-700 {
+  background-color: #424242;
+}
+
+.surface-800 {
+  background-color: #303030;
+}
+
+.surface-900 {
+  background-color: #212121;
+}
+
+.primary-50 {
+  background-color: #FFF8E1;
+}
+
+.primary-100 {
+  background-color: #FFECB3;
+}
+
+.primary-200 {
+  background-color: #FFD54F;
+}
+
+.primary-300 {
+  background-color: #FFCA28;
+}
+
+.primary-400 {
+  background-color: #FFC107;
+}
+
+.primary-500 {
+  background-color: #FFB300;
+}
+
+.secondary-50 {
+  background-color: #ECEFF1;
+}
+
+.secondary-100 {
+  background-color: #CFD8DC;
+}
+
+.secondary-200 {
+  background-color: #B0BEC5;
+}
+
+.secondary-300 {
+  background-color: #90A4AE;
+}
+
+.secondary-400 {
+  background-color: #78909C;
+}
+
+.secondary-500 {
+  background-color: #607D8B;
+}
+
+.danger-50 {
+  background-color: #FFEBEE;
+}
+
+.danger-100 {
+  background-color: #FFCDD2;
+}
+
+.danger-200 {
+  background-color: #EF9A9A;
+}
+
+.danger-300 {
+  background-color: #E57373;
+}
+
+.danger-400 {
+  background-color: #EF5350;
+}
+
+.danger-500 {
+  background-color: #F44336;
+}
+
+.success-50 {
+  background-color: #E8F5E9;
+}
+
+.success-100 {
+  background-color: #C8E6C9;
+}
+
+.success-200 {
+  background-color: #A5D6A7;
+}
+
+.success-300 {
+  background-color: #81C784;
+}
+
+.success-400 {
+  background-color: #66BB6A;
+}
+
+.success-500 {
+  background-color: #4CAF50;
+}
+
+.warning-50 {
+  background-color: #FFF3E0;
+}
+
+.warning-100 {
+  background-color: #FFE0B2;
+}
+
+.warning-200 {
+  background-color: #FFCC80;
+}
+
+.warning-300 {
+  background-color: #FFB74D;
+}
+
+.warning-400 {
+  background-color: #FFA726;
+}
+
+.warning-500 {
+  background-color: #FF9800;
+}
+
+.opacity-primary {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.opacity-secondary {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.opacity-danger {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.opacity-success {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.opacity-warning {
+  background-color: rgba(255, 165, 0, 0.1);
+}
+
+.dark-50 {
+  background-color: #121212;
+}
+
+.dark-100 {
+  background-color: #1D1D1D;
+}
+
+.dark-200 {
+  background-color: #2C2C2C;
+}
+
+.dark-300 {
+  background-color: #383838;
+}
+
+.dark-400 {
+  background-color: #444444;
+}
+
+.dark-500 {
+  background-color: #555555;
+}
+
+.typography-system {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.typography-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.typography-item {
+  background-color: #1E1E1E;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.typography-item h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.typography-item p {
+  margin: 0;
+}
+
+.heading-xl {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.heading-lg {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.heading-md {
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.title-xl {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.title-lg {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.body-lg {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.body-md {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.body-sm {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.caption {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.overline {
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Noto Sans Georgian", sans-serif;
+  text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #444444;
+}
+table th {
+  background-color: #282828;
+}
+
+.example-bar {
+  background-color: #BB86FC;
+  height: 10px;
+}
+
+.space-0 {
+  width: 0;
+}
+
+.space-1 {
+  width: 0.125rem;
+}
+
+.space-2 {
+  width: 0.25rem;
+}
+
+.space-3 {
+  width: 0.5rem;
+}
+
+.space-4 {
+  width: 1rem;
+}
+
+.space-5 {
+  width: 1.5rem;
+}
+
+.space-6 {
+  width: 2rem;
+}
+
+.space-7 {
+  width: 2.5rem;
+}
+
+.space-8 {
+  width: 3rem;
+}
+
+.space-9 {
+  width: 3.5rem;
+}
+
+.space-10 {
+  width: 4rem;
+}
+
+.space-11 {
+  width: 5rem;
+}
+
+.space-12 {
+  width: 6rem;
+}
+
+.space-13 {
+  width: 7rem;
+}
+
+.space-14 {
+  width: 8rem;
+}
+
+.space-15 {
+  width: 9rem;
+}
+
+.space-16 {
+  width: 10rem;
+}
+
+.space-17 {
+  width: 11rem;
+}
+
+.space-18 {
+  width: 12rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 20px;
+}
+
+.column {
+  background-color: #a78bfa;
+  height: 300px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.grid {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.grid-4 .column {
+  flex: 1 1 calc(25% - 10px);
+}
+.grid-6 .column {
+  flex: 1 1 calc(16.666% - 10px);
+}
+.grid-8 .column {
+  flex: 1 1 calc(12.5% - 10px);
+}
+
+@media (max-width: 1536px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+  }
+  .grid .column {
+    flex: 1 1 100%;
+  }
+}
+
+/*# sourceMappingURL=GlobalStyle.css.map */
