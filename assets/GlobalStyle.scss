@@ -14,6 +14,8 @@ p{
     font-size: 12px;
     font-weight: 500;
     color: black;
+
+    line-height: 24px;
 }
 
 .btn{
@@ -36,13 +38,60 @@ p{
 }
 .btn-light{
     width: 290px;
+    background: white;
     &:hover{
         background:#4E377C ;
         color: white;
     }
 }
 
+.btn-dark {
+    width: 290px;
+    background: #4E377C;
+    color: white;
 
+    &:hover {
+        background: white;
+        color: black;
+    }
+}
+
+.pop-up-flet {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: white;
+    padding: 12px;
+
+    border-radius: 4px;
+
+    .info-flat {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    img {
+        align-items: center;
+    }
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
 .color-system {
     max-width: 1200px;
     margin: 0 auto;
@@ -80,6 +129,7 @@ section {
         margin: 0;
         font-size: 12px;
         color: #000;
+
     }
 }
 

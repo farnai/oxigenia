@@ -26,3 +26,58 @@ section.about {
     }
   }
 }
+
+section.way-ox {
+  background: #E3E3DC;
+}
+
+section.about-paulonia {
+  .content-paulonia {
+    display: flex;
+    gap: 100px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+section.project-1 {
+  .map-image {
+    position: relative;
+    .pop-up-flet{
+      top: 50%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+section.landscape{
+
+
+.content-landscape{
+  display: flex;
+  gap: 40px;
+  margin: 80px 0 ;
+
+}
+  .more-paragraphs{
+
+    p{
+      max-width: 800px;
+    }
+  }
+  .gradus{
+white-space: nowrap;
+    justify-self: right;
+    align-self: center;
+  }
+  p{
+    font-size: 16px;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+  }
+}

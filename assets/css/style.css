@@ -14,6 +14,7 @@ p {
   font-size: 12px;
   font-weight: 500;
   color: black;
+  line-height: 24px;
 }
 
 .btn {
@@ -35,10 +36,56 @@ p {
 
 .btn-light {
   width: 290px;
+  background: white;
 }
 .btn-light:hover {
   background: #4E377C;
   color: white;
+}
+
+.btn-dark {
+  width: 290px;
+  background: #4E377C;
+  color: white;
+}
+.btn-dark:hover {
+  background: white;
+  color: black;
+}
+
+.pop-up-flet {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: white;
+  padding: 12px;
+  border-radius: 4px;
+}
+.pop-up-flet .info-flat {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+.pop-up-flet img {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .color-system {
@@ -555,6 +602,48 @@ section.about .column.about-grid {
 section.about .column.about-grid .instagram-icon {
   margin-top: auto;
   margin-bottom: 0;
+}
+
+section.way-ox {
+  background: #E3E3DC;
+}
+
+section.about-paulonia .content-paulonia {
+  display: flex;
+  gap: 100px;
+}
+section.about-paulonia .content-paulonia p {
+  font-size: 16px;
+}
+
+section.project-1 .map-image {
+  position: relative;
+}
+section.project-1 .map-image .pop-up-flet {
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+section.landscape .content-landscape {
+  display: flex;
+  gap: 40px;
+  margin: 80px 0;
+}
+section.landscape .more-paragraphs p {
+  max-width: 800px;
+}
+section.landscape .gradus {
+  white-space: nowrap;
+  justify-self: right;
+  align-self: center;
+}
+section.landscape p {
+  font-size: 16px;
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
 }
 
 header {
