@@ -11,3 +11,18 @@ section.hero{
     object-fit: cover;
   }
 }
+
+section.about {
+  .column.about-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .instagram-icon {
+      margin-top: auto;
+      margin-bottom: 0;
+
+    }
+  }
+}
