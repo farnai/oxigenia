@@ -1,0 +1,41 @@
+section.book-hero {
+
+  position: relative;
+
+  .pop-up-flet {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    .tab-eco {
+      display: flex;
+      position: absolute;
+      background: white;
+      border-radius: 4px;
+      left: 20px;
+      top: 20px;
+
+      a {
+        display: block;
+        padding: 5px;
+        border-radius: 4px;
+        &:hover{
+          opacity: 0.8;
+          background: #fefefe;
+
+        }
+      }
+    }
+
+    .btn {
+      width: 100%;
+      text-transform: uppercase;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+  }
+}

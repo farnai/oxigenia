@@ -47,6 +47,16 @@ p{
 
 .btn-dark {
     width: 290px;
+    background: black;
+    color: white;
+
+    &:hover {
+        background: white;
+        color: black;
+    }
+}
+.btn-purple {
+    width: 290px;
     background: #4E377C;
     color: white;
 
@@ -55,7 +65,6 @@ p{
         color: black;
     }
 }
-
 .pop-up-flet {
     display: flex;
     flex-direction: column;

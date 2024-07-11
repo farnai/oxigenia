@@ -45,10 +45,20 @@ p {
 
 .btn-dark {
   width: 290px;
-  background: #4E377C;
+  background: black;
   color: white;
 }
 .btn-dark:hover {
+  background: white;
+  color: black;
+}
+
+.btn-purple {
+  width: 290px;
+  background: #4E377C;
+  color: white;
+}
+.btn-purple:hover {
   background: white;
   color: black;
 }
@@ -672,6 +682,41 @@ header nav ul li a {
   text-decoration: none;
   padding: 10px;
   display: block;
+}
+
+section.book-hero {
+  position: relative;
+}
+section.book-hero .pop-up-flet {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+section.book-hero .pop-up-flet .tab-eco {
+  display: flex;
+  position: absolute;
+  background: white;
+  border-radius: 4px;
+  left: 20px;
+  top: 20px;
+}
+section.book-hero .pop-up-flet .tab-eco a {
+  display: block;
+  padding: 5px;
+  border-radius: 4px;
+}
+section.book-hero .pop-up-flet .tab-eco a:hover {
+  opacity: 0.8;
+  background: #fefefe;
+}
+section.book-hero .pop-up-flet .btn {
+  width: 100%;
+  text-transform: uppercase;
+}
+section.book-hero img {
+  width: 100%;
+  height: auto;
+  max-width: 1920px;
 }
 
 /*# sourceMappingURL=style.css.map */
