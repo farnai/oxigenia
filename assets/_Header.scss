@@ -5,6 +5,12 @@ header {
   z-index: 2;
   height: 100px;
   margin-bottom: -100px;
+  transition: all 0.3s ease;
+  background: transparent;
+;
+  &.sticky{
+    background: black;
+  }
 
   .header-content {
     display: flex;

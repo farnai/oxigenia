@@ -39,3 +39,46 @@ section.book-hero {
     max-width: 1920px;
   }
 }
+
+.follow-container {
+  .follow-info {
+    display: flex;
+
+    .follow-content {
+      max-width: 900px;
+      padding-right: 40px;
+
+      p {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+
+        span {
+          color: #8E979F;
+
+        }
+      }
+    }
+  }
+
+  .follow-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: auto;
+}
+}
+.book-slide{
+  .pop-up-flet{
+    position: static;
+  }
+  .book-slide-item{
+    border: 1px solid #CBCFD2;
+    border-radius: 4px;
+  }
+  .btn{
+    width: 100%;
+    text-transform: uppercase;
+  }
+}

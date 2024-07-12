@@ -663,6 +663,11 @@ header {
   z-index: 2;
   height: 100px;
   margin-bottom: -100px;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+header.sticky {
+  background: black;
 }
 header .header-content {
   display: flex;
@@ -717,6 +722,41 @@ section.book-hero img {
   width: 100%;
   height: auto;
   max-width: 1920px;
+}
+
+.follow-container .follow-info {
+  display: flex;
+}
+.follow-container .follow-info .follow-content {
+  max-width: 900px;
+  padding-right: 40px;
+}
+.follow-container .follow-info .follow-content p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+.follow-container .follow-info .follow-content p span {
+  color: #8E979F;
+}
+.follow-container .follow-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: auto;
+}
+
+.book-slide .pop-up-flet {
+  position: static;
+}
+.book-slide .book-slide-item {
+  border: 1px solid #CBCFD2;
+  border-radius: 4px;
+}
+.book-slide .btn {
+  width: 100%;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
