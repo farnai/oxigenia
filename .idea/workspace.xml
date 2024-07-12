@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c31cf74f-4f26-443b-9c32-b86f8515c61f" name="Changes" comment="book hero banner done">
-      <change afterPath="$PROJECT_DIR$/assets/_book.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/Christmas tree.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/Leaves.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/Road sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/Water drop.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/GlobalStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/GlobalStyle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/book-popup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/book-popup.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/book-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,37 +42,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/farna/Desktop/oxigenia1/assets",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/farna/Desktop/oxigenia1/assets&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\farna\Desktop\oxigenia1\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\farna\Desktop\oxigenia1" />
       <recent name="C:\Users\farna\Desktop\oxigenia1\assets\images\icons" />
       <recent name="C:\Users\farna\Desktop\oxigenia1\assets\images" />
       <recent name="C:\Users\farna\Desktop\oxigenia\assets" />
       <recent name="C:\Users\farna\Desktop\oxigenia\assets\css" />
-      <recent name="C:\Users\farna\Desktop\oxigenia\assets\images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -103,6 +94,7 @@
       <workItem from="1720512215207" duration="14929000" />
       <workItem from="1720594130724" duration="9344000" />
       <workItem from="1720688772813" duration="14709000" />
+      <workItem from="1720772179082" duration="978000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
