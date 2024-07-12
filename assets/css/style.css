@@ -612,6 +612,7 @@ section.about .column.about-grid {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  flex: 1;
 }
 section.about .column.about-grid .instagram-icon {
   margin-top: auto;
@@ -753,14 +754,20 @@ section.book-hero img {
 
 .book-slide .pop-up-flet {
   position: static;
+  border: 1px solid #CBCFD2;
+  border-radius: 4px;
 }
 .book-slide .book-slide-item {
-  border: 1px solid #CBCFD2;
   border-radius: 4px;
 }
 .book-slide .btn {
   width: 100%;
   text-transform: uppercase;
+}
+.book-slide.single-book-items .book-slide-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

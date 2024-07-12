@@ -72,13 +72,22 @@ section.book-hero {
 .book-slide{
   .pop-up-flet{
     position: static;
+    border: 1px solid #CBCFD2;
+    border-radius: 4px;
   }
   .book-slide-item{
-    border: 1px solid #CBCFD2;
+
     border-radius: 4px;
   }
   .btn{
     width: 100%;
     text-transform: uppercase;
+  }
+  &.single-book-items{
+    .book-slide-item{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 12px;
+    }
   }
 }

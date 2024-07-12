@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c31cf74f-4f26-443b-9c32-b86f8515c61f" name="Changes" comment="fix menu, add items and other many update">
+    <list default="true" id="c31cf74f-4f26-443b-9c32-b86f8515c61f" name="Changes" comment="fix initial-scale">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/GlobalStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/GlobalStyle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/docs/design-systems.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/docs/design-systems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/_Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/_Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/_book.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/_book.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <workItem from="1720512215207" duration="14929000" />
       <workItem from="1720594130724" duration="9344000" />
       <workItem from="1720688772813" duration="14709000" />
-      <workItem from="1720772179082" duration="7548000" />
+      <workItem from="1720772179082" duration="9413000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -155,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720782995657</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix initial-scale">
+      <option name="closed" value="true" />
+      <created>1720784084629</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720784084629</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +179,7 @@
     <MESSAGE value="book hero banner done" />
     <MESSAGE value="pages out in assets" />
     <MESSAGE value="fix menu, add items and other many update" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix menu, add items and other many update" />
+    <MESSAGE value="fix initial-scale" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix initial-scale" />
   </component>
 </project>
