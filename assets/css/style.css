@@ -671,8 +671,34 @@ header {
   transition: all 0.3s ease;
   background: transparent;
 }
+header svg {
+  fill: white;
+}
 header.sticky {
   background: black;
+}
+header.fixed {
+  margin-bottom: 0;
+}
+header.bg-white {
+  background: white;
+  color: black;
+}
+header.bg-white nav ul li a {
+  color: black;
+}
+header.bg-white svg {
+  fill: black;
+}
+header.bg-black {
+  background: black;
+  color: white;
+}
+header.bg-black nav ul li a {
+  color: white;
+}
+header.bg-black svg {
+  fill: white;
 }
 header .header-content {
   display: flex;
@@ -768,6 +794,41 @@ section.book-hero img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 12px;
+}
+
+section.dev-plan .grid-2 {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+section.dev-plan .grid-2 .column {
+  flex: 1;
+}
+section.dev-plan .grid-2 .column ul {
+  padding-left: 0;
+  border-left: 1px solid black;
+}
+section.dev-plan .grid-2 .column ul li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-size: 16px;
+  color: #8E979F;
+  line-height: 1;
+}
+section.dev-plan .grid-2 .column ul li svg {
+  margin: 0 18px;
+  max-height: 42px;
+  width: auto;
+}
+section.dev-plan .grid-2 .column1 {
+  max-width: 550px;
+}
+section.dev-plan h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
 }
 
 /*# sourceMappingURL=style.css.map */

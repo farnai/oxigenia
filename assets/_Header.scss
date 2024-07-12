@@ -7,9 +7,41 @@ header {
   margin-bottom: -100px;
   transition: all 0.3s ease;
   background: transparent;
+  svg{
+    fill: white;
+  }
 ;
   &.sticky{
     background: black;
+  }
+  &.fixed{
+    margin-bottom: 0;
+  }
+
+  &.bg-white {
+    background: white;
+    color: black;
+
+    nav ul li a {
+      color: black;
+    }
+
+    svg {
+      fill: black;
+    }
+  }
+
+  &.bg-black {
+    background: black;
+    color: white;
+
+    nav ul li a {
+      color: white;
+    }
+
+    svg {
+      fill: white;
+    }
   }
 
   .header-content {
